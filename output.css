@@ -1711,12 +1711,12 @@ input:checked + .toggle-bg {
 
 .text-purple-500 {
   --tw-text-opacity: 1;
-  color: rgb(144 97 249 / var(--tw-text-opacity));
+  color: #0d6efd;
 }
 
 .text-purple-600 {
   --tw-text-opacity: 1;
-  color: rgb(126 58 242 / var(--tw-text-opacity));
+  color: #0d6efd;
 }
 
 .text-gray-400 {
