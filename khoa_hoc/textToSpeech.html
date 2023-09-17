@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Dashboard - CUDELINGO</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <span class="d-none d-lg-block">CUDELINGO</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <!-- ... (Phần header còn lại không thay đổi) -->
+
+    </header><!-- End Header -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+    
+          <li class="nav-item">
+            <a class="nav-link " href="lang=vi.html">
+              <i class="bi bi-grid"></i>
+              <span>Khoá Học</span>
+            </a>
+          </li><!-- End Dashboard Nav -->
+    
+          <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+              <i class="bi bi-menu-button-wide"></i><span>Ngôn ngữ</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+              <li>
+                <a href="components-alerts.html">
+                  <i class="bi bi-circle"></i><span>Tiếng Việt</span>
+                </a>
+              </li>
+              <li>
+                <a href="components-accordion.html">
+                  <i class="bi bi-circle"></i><span>English</span>
+                </a>
+              </li>
+              
+             
+             
+            </ul>
+          </li><!-- End Components Nav -->
+    
+          
+    
+          <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+              <i class="bi bi-layout-text-window-reverse"></i><span>Luyện tập</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+              <li>
+                <a href="tables-general.html">
+                  <i class="bi bi-circle"></i><span>Luyện tập trắc nghiệm</span>
+                </a>
+              </li>
+             
+            </ul>
+          </li><!-- End Tables Nav -->
+    
+          <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+              <i class="bi bi-bar-chart"></i><span>Thống kê sever</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+              <li>
+                <a href="charts-chartjs.html">
+                  <i class="bi bi-circle"></i><span>Chart.js</span>
+                </a>
+              </li>
+              <li>
+                <a href="charts-apexcharts.html">
+                  <i class="bi bi-circle"></i><span>ApexCharts</span>
+                </a>
+              </li>
+              <li>
+                <a href="charts-echarts.html">
+                  <i class="bi bi-circle"></i><span>Chatbot</span>
+                </a>
+              </li>
+            </ul>
+          </li><!-- End Charts Nav -->
+    
+          <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+              <i class="bi bi-gem"></i><span>Trí tuệ nhân tạo</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+              <li>
+                <a href="nhandang.html">
+                  <i class="bi bi-circle"></i><span>Nhận diện ngôn ngữ kí hiệu</span>
+                </a>
+              </li>
+              <li>
+                <a href="icons-remix.html">
+                  <i class="bi bi-circle"></i><span>Chuyển văn bản thành giọng nói</span>
+                </a>
+              </li>
+              <li>
+                <a href="icons-boxicons.html">
+                  <i class="bi bi-circle"></i><span>Chatbot</span>
+                </a>
+              </li>
+            </ul>
+          </li><!-- End Icons Nav -->
+    
+          <li class="nav-heading">Mục khác</li>
+    
+          <li class="nav-item">
+            <a class="nav-link collapsed" href="users-profile.html">
+              <i class="bi bi-person"></i>
+              <span>Profile</span>
+            </a>
+          </li><!-- End Profile Page Nav -->
+    
+          
+    
+          
+    
+         
+    
+          
+    
+        </ul>
+    
+      </aside><!-- End Sidebar-->
+    <!-- ... (Phần sidebar và main content) -->
+
+    <main id="main" class="main">
+        <div class="wrapper">
+            <h4>Văn bản sang giọng nói</h4>
+            <form action="#">
+                <div class="row">
+                    <label>Nhập văn bản</label>
+                    <textarea rows="15" cols="50"></textarea>
+                </div>
+                <div class="row">
+                    <label>Chọn giọng nói</label>
+                    <div class="outer">
+                        <select></select>
+                    </div>
+                </div><br>
+                <button type="button" class="btn btn-primary">Chuyển</button>
+            </form>
+        </div>
+    </main><!-- End #main -->
+
+    <!-- ... (Phần footer và script) -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const textarea = document.querySelector("textarea"),
+                voiceSelect = document.querySelector("select"),
+                speechBtn = document.querySelector("button");
+
+            let synth = window.speechSynthesis;
+
+            function voices() {
+                const voices = synth.getVoices();
+                for (let voice of voices) {
+                    let selected = voice.name === "Google US English" ? "selected" : "";
+                    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+                    voiceSelect.insertAdjacentHTML("beforeend", option);
+                }
+            }
+
+            voices();
+
+            synth.addEventListener("voiceschanged", voices);
+
+            function textToSpeech(text) {
+                let utterance = new SpeechSynthesisUtterance(text);
+                for (let voice of synth.getVoices()) {
+                    if (voice.name === voiceSelect.value) {
+                        utterance.voice = voice;
+                    }
+                }
+                synth.speak(utterance);
+            }
+
+            speechBtn.addEventListener("click", (e) => {
+                e.preventDefault();
+                if (textarea.value !== "") {
+                    if (!synth.speaking) {
+                        textToSpeech(textarea.value);
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
