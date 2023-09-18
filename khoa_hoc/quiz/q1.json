@@ -1,0 +1,20 @@
+[
+    {
+        "videoSrc": "video1.mp4",
+        "question": "Câu hỏi 1: Đây là video số mấy?",
+        "choices": {
+            "A": "Video 1",
+            "B": "Video 2"
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "videoSrc": "video2.mp4",
+        "question": "Câu hỏi 2: Đây là video số mấy?",
+        "choices": {
+            "A": "Video 2",
+            "B": "Video 3"
+        },
+        "correctAnswer": "A"
+    }
+]
