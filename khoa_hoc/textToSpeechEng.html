@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Dashboard - HandTalker</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="indexEng.html" class="logo d-flex align-items-center">
+        
+          <span class="d-none d-lg-block">HandTalker</span>
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </div><!-- End Logo -->
+
+        <!-- ... (Phần header còn lại không thay đổi) -->
+
+    </header><!-- End Header -->
+    <aside id="sidebar" class="sidebar">
+
+      <ul class="sidebar-nav" id="sidebar-nav">
+    
+        <li class="nav-item">
+          <a class="nav-link " href="#">
+            <i class="bi bi-grid"></i>
+            <span>Courses</span>
+          </a>
+        </li><!-- End Dashboard Nav -->
+    
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-menu-button-wide"></i><span>Language</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="lang=viEng.html">
+                <i class="bi bi-circle"></i><span>Tiếng Việt</span>
+              </a>
+            </li>
+            <li>
+              <a href="lang=vi.html">
+                <i class="bi bi-circle"></i><span>English</span>
+              </a>
+            </li>
+            
+           
+           
+          </ul>
+        </li><!-- End Components Nav -->
+    
+        
+    
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-layout-text-window-reverse"></i><span>Practices</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="quizHomeEng.html">
+                <i class="bi bi-circle"></i><span>Practice multiple choice tests</span>
+              </a>
+            </li>
+           
+          </ul>
+        </li><!-- End Tables Nav -->
+    
+      
+    
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-gem"></i><span>Artificial intelligence</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="recognize.html">
+                <i class="bi bi-circle"></i><span>Recognize sign language</span>
+              </a>
+            </li>
+            <li>
+              <a href="textToSpeechEng.html">
+                <i class="bi bi-circle"></i><span>Convert text to speech</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li><!-- End Icons Nav -->
+        <li class="nav-item">
+          <a class="nav-link " href="https://kademy-software.github.io/tu-dien-ngon-ngu-ki-hieu/">
+            <i class="bi bi-grid"></i>
+            <span>Sign language dictionary </span>
+          </a>
+        </li><!-- End Dashboard Nav -->
+        <li class="nav-heading">MORE...</li>
+    
+    
+    
+        
+    
+        
+    
+       
+    
+        
+    
+      </ul>
+    
+    </aside><!-- End Sidebar-->
+    <!-- ... (Phần sidebar và main content) -->
+
+    <main id="main" class="main">
+        <div class="wrapper">
+            <h4>Text To Speech</h4>
+            <form action="#">
+                <div class="row">
+                    <label>Enter text</label>
+                    <textarea rows="15" cols="50"></textarea>
+                </div>
+                <div class="row">
+                    <label>Select Voice</label>
+                    <div class="outer">
+                        <select></select>
+                    </div>
+                </div><br>
+                <button type="button" class="btn btn-primary">Transfer</button>
+            </form>
+        </div>
+    </main><!-- End #main -->
+
+    <!-- ... (Phần footer và script) -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const textarea = document.querySelector("textarea"),
+                voiceSelect = document.querySelector("select"),
+                speechBtn = document.querySelector("button");
+
+            let synth = window.speechSynthesis;
+
+            function voices() {
+                const voices = synth.getVoices();
+                for (let voice of voices) {
+                    let selected = voice.name === "Google US English" ? "selected" : "";
+                    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+                    voiceSelect.insertAdjacentHTML("beforeend", option);
+                }
+            }
+
+            voices();
+
+            synth.addEventListener("voiceschanged", voices);
+
+            function textToSpeech(text) {
+                let utterance = new SpeechSynthesisUtterance(text);
+                for (let voice of synth.getVoices()) {
+                    if (voice.name === voiceSelect.value) {
+                        utterance.voice = voice;
+                    }
+                }
+                synth.speak(utterance);
+            }
+
+            speechBtn.addEventListener("click", (e) => {
+                e.preventDefault();
+                if (textarea.value !== "") {
+                    if (!synth.speaking) {
+                        textToSpeech(textarea.value);
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
