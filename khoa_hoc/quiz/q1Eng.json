@@ -1,0 +1,20 @@
+[
+    {
+        "videoSrc": "video1.mp4",
+        "question": "Question 1: What action is this?",
+        "choices": {
+            "A": "Hello",
+            "B": "Sorry"
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "videoSrc": "video2.mp4",
+        "question": "Question 2: Is this a 'Hello' action?",
+        "choices": {
+            "A": "True",
+            "B": "False"
+        },
+        "correctAnswer": "A"
+    }
+]
