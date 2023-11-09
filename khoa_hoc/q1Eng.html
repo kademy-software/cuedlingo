@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <title>Dashboard - CUDELINGO</title>
+  <title>Dashboard</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,8 +40,9 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <span class="d-none d-lg-block">CUDELINGO</span>
+      <a href="indexEng.html" class="logo d-flex align-items-center">
+      
+        <span class="d-none d-lg-block">HandTalker</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -66,12 +67,12 @@
 
           <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
             <i class="bi bi-bell"></i>
-            <span class="badge bg-primary badge-number">Mới</span>
+            <span class="badge bg-primary badge-number">New</span>
           </a><!-- End Notification Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
             <li class="dropdown-header">
-              Bạn có 1 thông báo mới
+                You have 1 new notification
               <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
             </li>
             <li>
@@ -81,9 +82,9 @@
             <li class="notification-item">
               <i class="bi bi-exclamation-circle text-warning"></i>
               <div>
-                <h4>Chào mừng học sinh khối 10 thử nghiệm sản phẩm !</h4>
-                <p>Mong bạn thích nó ^^</p>
-                <p>30 phút trước</p>
+                <h4>Welcome grade 10 students to test this products!</h4>
+                <p>Hope you like it ^^</p>
+                <p>30 minutes ago</p>
               </div>
             </li>
 
@@ -101,12 +102,14 @@
               <hr class="dropdown-divider">
             </li>
             <li class="dropdown-footer">
-              <a href="#">Xem tất cả thông báo</a>
+              <a href="#">See all</a>
             </li>
 
           </ul><!-- End Notification Dropdown Items -->
 
         </li><!-- End Notification Nav -->
+
+       
 
         <li class="nav-item dropdown pe-3">
 
@@ -117,19 +120,14 @@
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Học sinh</h6>
-              <span>THPT Tịnh Biên</span>
+              <h6>Student</h6>
+              <span>Tinh Bien High School</span>
             </li>
             <li>
               <hr class="dropdown-divider">
             </li>
 
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-person"></i>
-                <span>Hồ sơ của tôi</span>
-              </a>
-            </li>
+         
             <li>
               <hr class="dropdown-divider">
             </li>
@@ -157,7 +155,7 @@
             <li>
               <a class="dropdown-item d-flex align-items-center" href="#">
                 <i class="bi bi-box-arrow-right"></i>
-                <span>Đăng xuất</span>
+                <span>Log out</span>
               </a>
             </li>
 
@@ -168,27 +166,25 @@
     </nav><!-- End Icons Navigation -->
 
   </header><!-- End Header -->
-
- 
   <!-- ======= Sidebar ======= -->
   <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
-
+  
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link " href="#">
           <i class="bi bi-grid"></i>
-          <span>Khoá Học</span>
+          <span>Courses</span>
         </a>
       </li><!-- End Dashboard Nav -->
-
+  
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Ngôn ngữ</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-menu-button-wide"></i><span>Language</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="lang=vi.html">
+            <a href="lang=viEng.html">
               <i class="bi bi-circle"></i><span>Tiếng Việt</span>
             </a>
           </li>
@@ -202,38 +198,38 @@
          
         </ul>
       </li><!-- End Components Nav -->
-
+  
       
-
+  
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-layout-text-window-reverse"></i><span>Luyện tập</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-layout-text-window-reverse"></i><span>Practices</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="quizHome.html">
-              <i class="bi bi-circle"></i><span>Luyện tập trắc nghiệm</span>
+            <a href="quizHomeEng.html">
+              <i class="bi bi-circle"></i><span>Practice multiple choice tests</span>
             </a>
           </li>
          
         </ul>
       </li><!-- End Tables Nav -->
-
+  
     
-
+  
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-gem"></i><span>Trí tuệ nhân tạo</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-gem"></i><span>Artificial intelligence</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="nhandang.html">
-              <i class="bi bi-circle"></i><span>Nhận diện ngôn ngữ kí hiệu</span>
+            <a href="recognize.html">
+              <i class="bi bi-circle"></i><span>Recognize sign language</span>
             </a>
           </li>
           <li>
-            <a href="textToSpeech.html">
-              <i class="bi bi-circle"></i><span>Chuyển văn bản thành giọng nói</span>
+            <a href="textToSpeechEng.html">
+              <i class="bi bi-circle"></i><span>Convert text to speech</span>
             </a>
           </li>
           
@@ -242,24 +238,25 @@
       <li class="nav-item">
         <a class="nav-link " href="https://kademy-software.github.io/tu-dien-ngon-ngu-ki-hieu/">
           <i class="bi bi-grid"></i>
-          <span>Từ điển ngôn ngữ kí hiệu </span>
+          <span>Sign language dictionary </span>
         </a>
       </li><!-- End Dashboard Nav -->
-      <li class="nav-heading">Mục khác</li>
-
-
-
+      <li class="nav-heading">MORE...</li>
+  
+  
+  
       
-
+  
       
-
+  
      
-
+  
       
-
+  
     </ul>
-
+  
   </aside><!-- End Sidebar-->
+     
 
   <main id="main" class="main">
     <div class="container">
@@ -295,7 +292,7 @@
     </div>
     <div class="credits">
      
-      Designed by <a href="#">Tuấn Kiệt âhhahaha</a>
+      Designed by <a href="#">Tuấn Kiệt </a>
     </div>
   </footer><!-- End Footer -->
 
@@ -362,7 +359,7 @@
               score++;
           }
       
-          document.getElementById("result").innerHTML = userChoice === correctAnswer ? "Đúng!" : "Sai!";
+          document.getElementById("result").innerHTML = userChoice === correctAnswer ? "Exactly!" : "Not exactly!";
           document.getElementById("options-container").style.display = "none";
           document.getElementById("result-container").style.display = "block";
       }
@@ -372,7 +369,7 @@
           if (currentQuestion < questions.length) {
               loadQuestion();
           } else {
-              document.getElementById("question").textContent = `Kết quả: ${score}/${questions.length}`;
+              document.getElementById("question").textContent = `Result: ${score}/${questions.length}`;
               document.getElementById("options-container").style.display = "none";
               document.getElementById("result-container").style.display = "none";
           }
@@ -393,7 +390,7 @@
           document.getElementById("result").innerHTML = "";
       }
       
-      fetch("quiz/q1.json")
+      fetch("quiz/q1Eng.json")
           .then(response => response.json())
           .then(data => {
               questions = data;
