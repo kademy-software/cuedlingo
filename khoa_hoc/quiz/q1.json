@@ -1,19 +1,19 @@
 [
     {
         "videoSrc": "video1.mp4",
-        "question": "Câu hỏi 1: Đây là video số mấy?",
+        "question": "Câu hỏi 1: Đây là hành động nào?",
         "choices": {
-            "A": "Video 1",
-            "B": "Video 2"
+            "A": "Xin chào",
+            "B": "Xin lỗi"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "B"
     },
     {
         "videoSrc": "video2.mp4",
-        "question": "Câu hỏi 2: Đây là video số mấy?",
+        "question": "Câu hỏi 2: Đây có phải là hành động 'Xin chào' không?",
         "choices": {
-            "A": "Video 2",
-            "B": "Video 3"
+            "A": "Đúng",
+            "B": "Sai"
         },
         "correctAnswer": "A"
     }
