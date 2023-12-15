@@ -1,16 +1,16 @@
 [
     {
-        "videoSrc": "video1.mp4",
+        "videoSrc": "c.mp4",
         "question": "Câu hỏi 1: Đây là hành động nào?",
         "choices": {
             "A": "Xin chào",
-            "B": "Xin lỗi"
+            "B": "Chi lê"
         },
         "correctAnswer": "B"
     },
     {
-        "videoSrc": "video2.mp4",
-        "question": "Câu hỏi 2: Đây có phải là hành động 'Xin chào' không?",
+        "videoSrc": "c.mp4",
+        "question": "Câu hỏi 2: Đây có phải là hành động 'Chi Lê' không?",
         "choices": {
             "A": "Đúng",
             "B": "Sai"
